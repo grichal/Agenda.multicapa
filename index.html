@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Contactos</title>
+  </head>
+  <body>
+    <div class="container22 spread">
+      <p>Contacto</p>
+      <input type="text" class="teto" id="nombre" placeholder="Nombre" />
+      <input type="text" class="teto" id="apellido" placeholder="Apellido" />
+      <input type="text" class="teto" id="telefono" placeholder="Telefono" />
+      <div class="son">
+        <button class="cancelar">Cancelar</button>
+        <button class="agregar">agregar</button>
+      </div>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="head">
+          <button class="botona" id="boton">Agregar contacto</button>
+          <div class="contacto">
+            <h1>Contacs</h1>
+          </div>
+        </div>
+        <div class="square">
+          <div class="header">
+            <table class="table" cellpadding="0" cellspacing="0">
+              <thead>
+                <tr class="titulo">
+                  <th scope="col" class="radius">nombre</th>
+                  <th scope="col">apellido</th>
+                  <th scope="col" class="radius">telefono</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <div class="tablebody">
+            <table cellpadding="0" cellspacing="0">
+              <tbody id="cuerpo"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p id="resultado"></p>
+  </body>
+  <script src="js/index.js"></script>
+</html>
