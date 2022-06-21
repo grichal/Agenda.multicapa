@@ -69,16 +69,10 @@ agregar.addEventListener("click", () => {
     }).then((data) => {
       tabla.innerHTML += `
             <tr class="rows">
-                   <td>${nombre.value}</td>
-
-                   
+            <td>${nombre.value}</td>                
             <td>${apellido.value}</td>
-
-
             <td>${telefono.value}</td>
           </tr>
-
-
             `;
       alert("Se ha agregado el dato con exito");
       menu.classList.toggle("spread");
